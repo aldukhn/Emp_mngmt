@@ -4,6 +4,32 @@
 
 ## Installation
 
+```bash
+$ composer updates
+```
+then crate new tables with:
+
+```bash
+$ php artisan migrate
+```
+then create default system user
+
+```bash
+$ php artisan db:seed
+```
+
+```bash
+$ php artisan key:generate
+```
+
+```bash
+$ php artisan config:clear
+```
+then start it with
+```bash
+$ php artisan serve
+```
+
 ## Screenshots
 
 ![Alt text](/5.png?raw=true "Dashboard")
