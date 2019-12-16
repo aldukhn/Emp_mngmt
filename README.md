@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-$ composer updates
+$ composer update
 ```
 then crate new tables with:
 
